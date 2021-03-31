@@ -9,19 +9,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LaravelHelpersServiceProvider extends PackageServiceProvider
 {
-    public function configurePackage(Package $package): void
-    {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
-        $package
-            ->name('laravel-helpers')
-        ;
-    }
-
-    public function packageRegistered()
+    public function register()
     {
         Builder::macro('toSqlRaw', function () {
             return array_reduce($this->getBindings(), function ($sql, $binding) {
