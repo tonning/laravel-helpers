@@ -18,7 +18,7 @@ class LaravelHelpersServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel_helpers')
+            ->name('laravel-helpers')
         ;
     }
 
