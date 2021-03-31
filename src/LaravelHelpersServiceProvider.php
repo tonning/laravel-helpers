@@ -6,23 +6,10 @@ use Illuminate\Database\Eloquent\Builder as Eloquent;
 use Illuminate\Database\Query\Builder;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tonning\LaravelHelpers\Commands\LaravelHelpersCommand;
 
 class LaravelHelpersServiceProvider extends PackageServiceProvider
 {
-    public function configurePackage(Package $package): void
-    {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
-        $package
-            ->name('laravel-helpers')
-        ;
-    }
-
-    public function packageRegistered()
+    public function register()
     {
         Builder::macro('toSqlRaw', function () {
             return array_reduce($this->getBindings(), function ($sql, $binding) {
