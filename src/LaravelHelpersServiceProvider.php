@@ -4,9 +4,9 @@ namespace Tonning\LaravelHelpers;
 
 use Illuminate\Database\Eloquent\Builder as Eloquent;
 use Illuminate\Database\Query\Builder;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class LaravelHelpersServiceProvider extends PackageServiceProvider
+class LaravelHelpersServiceProvider extends ServiceProvider
 {
     public function register()
     {
