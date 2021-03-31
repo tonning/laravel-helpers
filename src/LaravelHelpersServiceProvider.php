@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Builder as Eloquent;
 use Illuminate\Database\Query\Builder;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tonning\LaravelHelpers\Commands\LaravelHelpersCommand;
 
 class LaravelHelpersServiceProvider extends PackageServiceProvider
 {
