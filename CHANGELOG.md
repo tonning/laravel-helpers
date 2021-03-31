@@ -1,7 +1,8 @@
 # Changelog
 
-All notable changes to `:package_name` will be documented in this file.
+All notable changes to `laravel-helpers` will be documented in this file.
 
-## 1.0.0 - 202X-XX-XX
+## 1.0.0 - 2021-03-31
 
-- initial release
+- Initial release with:
+    - `toSqlRaw()`
