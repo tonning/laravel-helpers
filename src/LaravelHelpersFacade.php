@@ -11,6 +11,6 @@ class LaravelHelpersFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel_helpers';
+        return 'laravel-helpers';
     }
 }

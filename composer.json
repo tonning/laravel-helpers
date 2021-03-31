@@ -1,12 +1,12 @@
 {
-    "name": "tonning/laravel_helpers",
+    "name": "tonning/laravel-helpers",
     "description": "Helpers for Laravel",
     "keywords": [
         "tonning",
         "laravel",
-        "laravel_helpers"
+        "helpers"
     ],
-    "homepage": "https://github.com/tonning/laravel_helpers",
+    "homepage": "https://github.com/tonning/laravel-helpers",
     "license": "MIT",
     "authors": [
         {
